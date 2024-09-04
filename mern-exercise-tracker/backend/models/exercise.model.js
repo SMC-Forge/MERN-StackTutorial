@@ -11,7 +11,8 @@ const exerciseSchema = new Schema({
 }, {
     timestamps: true,
 });
-
+// Exercise is a mongoose model, so it has a bunch of methods taken from the Mongoose library.
+// The methods are used in some of the routes in exercises.js and users.js
 const Exercise = mongoose.model('Exercise', exerciseSchema);
 
 module.exports = Exercise;
