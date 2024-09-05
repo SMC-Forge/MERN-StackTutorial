@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// won't need this for the project but will leave in as a space for future development
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
