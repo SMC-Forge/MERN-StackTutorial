@@ -42,9 +42,9 @@ function App() {
       <br />
       <Routes>
         <Route path="/" exact element={<ExercisesList />} />
-        <Route path="/edit/:id" exact Element={<EditExercise />} />
-        <Route path="/create" exact Element={<CreateExercise />} />
-        <Route path="/user" exact Element={<CreateUser />} />
+        <Route path="/edit/:id" exact element={<EditExercise />} />
+        <Route path="/create" exact element={<CreateExercise />} />
+        <Route path="/user" exact element={<CreateUser />} />
       </Routes>
     </Router>
     );
